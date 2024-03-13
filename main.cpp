@@ -9,14 +9,14 @@ int numOfClasses;
 list<string> grade;
 
 int getNumOfClasses(){
-    cout << "Enter number of classes" << endl;
+    cout << "Enter number of classes: ";
     cin >> numOfClasses;
     return numOfClasses;
 }
 
 void enterGrades(){
     string input;
-    for(int i = 0; i <= numOfClasses; i++){
+    for(int i = 1; i <= numOfClasses; i++){
         cout << "Enter grade for class " << i << ": ";
         cin >> input;
         grade.push_front(input);
@@ -26,6 +26,5 @@ void enterGrades(){
 int main(){
     getNumOfClasses();
     enterGrades();
-
+    calcGPA(calculateTotal(grade),numOfClasses);
 }
-

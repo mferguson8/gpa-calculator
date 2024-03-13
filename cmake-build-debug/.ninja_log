@@ -1,0 +1,6 @@
+# ninja log v5
+33	630	7319926627044075	CMakeFiles/gpa_calculator.dir/main.cpp.obj	f9b38795fe0e82ea
+1	632	7319926627044075	CMakeFiles/gpa_calculator.dir/calculate.cpp.obj	31eb9145c834ec8b
+632	918	7319926629875486	gpa_calculator.exe	3594e4b4274c4813
+2	362	7319928831249797	CMakeFiles/gpa_calculator.dir/main.cpp.obj	f9b38795fe0e82ea
+362	443	7319928832021407	gpa_calculator.exe	3594e4b4274c4813

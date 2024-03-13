@@ -39,5 +39,6 @@ double calculateTotal(const list<string>& grades) {
 
 double calcGPA(double total, int numClasses){
     double gpa = total / numClasses;
+    cout << "Your GPA is: " << gpa << endl;
     return gpa;
 }
